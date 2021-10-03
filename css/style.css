@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  background-color: #272727;
+}
+
+#Custom_cursor {
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 2px solid #cecece;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot,
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7,
+.dot8,
+.dot9,
+.dot10,
+.dot11,
+.dot12,
+.dot13,
+.dot14,
+.dot15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.monitor {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
